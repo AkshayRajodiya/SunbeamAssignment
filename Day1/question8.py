@@ -6,9 +6,9 @@
 # Plus Rs. 0.50 per call for next 50 calls.
 # Plus Rs. 0.40 per call for any call beyond 200 calls.
 calculate_number_of_calls = int(input("Enter number of calls :"))
-x = 0
-y = 0
-z = 0
+x = 0                         # extra charge for 100-150.
+y = 0                         # extra charge for 150-200.
+z = 0                         # extra charge after 200.
 if calculate_number_of_calls <= 100:
     bill_value = 200
     print(f"bill is {bill_value} Rs")
